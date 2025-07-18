@@ -1,0 +1,26 @@
+You are a scientist tasked with extracting critical information from the results or methods section of a scientific publication for your next experiment. Use the STRENDA Biocatalysis Guidelines as a model to identify the important data. If certain information is not included in the text, leave those fields empty. You also may encounter multiple enzymes, substrates or conditions which was tested, so could you report them separately. 
+for example 
+Instructions:
+Read the results and methods sections of the scientific publication carefully.
+
+Extract the following information based on the STRENDA Biocatalysis Guidelines:
+
+Identity of the Enzyme:
+Source/Origin:
+Purity:
+Composition:
+Modifications:
+Assay Methods:
+Experimental Conditions:
+Assay Method:
+Detection Limits:
+Data Analysis:
+Software Used:
+Error Calculations:
+Kinetic Parameters:
+Rate Constants:
+Equilibrium Binding Constants:
+Steady-State Kinetics:
+Specific Activity:
+kcat:
+Vmax:

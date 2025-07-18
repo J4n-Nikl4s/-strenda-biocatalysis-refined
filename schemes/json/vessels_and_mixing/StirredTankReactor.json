@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "StirredTankReactor",
+  "type": "object",
+  "description": "Stirred Tank Reactors (STRs) are frequently employed as versatile and controlled vessels, allowing for precise regulation of key parameters like temperature, pH, and stirring speed. All relevant specifications or attributes need to be described.Tubular flow/continuous reactor",
+  "properties": {
+    "bottom_type": {
+      "title": "bottom_type",
+      "type": "string",
+      "description": "Shape of the bottom of the reactor, e.g. a round bottom or a flat bottom."
+    },
+    "gas_consumption": {
+      "title": "gas_consumption",
+      "type": "string",
+      "description": "Common gases that are supplied to the reactor include, e.g., air, oxygen, hydrogen, etc."
+    },
+    "gas_supply": {
+      "title": "gas_supply",
+      "type": "string",
+      "description": "Gas can be supplied to a Stirred Tank Reactor in various ways, such as through sparging using a tube or an aeration basket, bubbling, or direct injection into the reactor vessel."
+    },
+    "gas_supply_rate": {
+      "title": "gas_supply_rate",
+      "type": "number",
+      "description": "Specification of the gas supply rate.",
+      "minimum": 0.0
+    },
+    "gas_supply_rate_unit": {
+      "title": "gas_supply_rate_unit",
+      "type": "string",
+      "description": "The units for the gas supply rate in a Stirred Tank Reactor can be L/min (liters per minute), m³/h (cubic meters per hour), or other volume units per unit of time."
+    },
+    "geometry": {
+      "title": "geometry",
+      "type": "string",
+      "description": "The geometry of the reactor, in particular of interest is the ratio of height to width."
+    },
+    "material": {
+      "title": "material",
+      "type": "string",
+      "description": "Material the reactor is made of, e.g. glass, polypropylene etc."
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific methods, procedures, characteristics or aspects related to the Stirred Tank Reactor or its preparation for the reaction that are important for reproducibility and are        not described by the aforementioned metadata, they should be explained here."
+    },
+    "temperature_control": {
+      "title": "temperature_control",
+      "type": "string",
+      "description": "The temperature in a Stirred Tank Reactor can be controlled through various methods, typically using external heat sources or cooling systems such as heating jackets, cooling coils, or external             temperature control units."
+    },
+    "type": {
+      "title": "type",
+      "type": "string",
+      "description": "There are several types of Stirred Tank Reactors, differing in design and intended use. A detailed description is required."
+    },
+    "volume": {
+      "title": "volume",
+      "type": "number",
+      "description": "Indicate the total volume capacity of the Stirred Tank Reactor.",
+      "minimum": 0.0
+    },
+    "volume_unit": {
+      "title": "volume_unit",
+      "type": "string",
+      "description": "The volume is typically expressed in L (liters)."
+    }
+  },
+  "required": [
+    "type",
+    "material",
+    "volume",
+    "volume_unit",
+    "geometry",
+    "bottom_type",
+    "gas_consumption",
+    "gas_supply",
+    "gas_supply_rate",
+    "gas_supply_rate_unit",
+    "temperature_control",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

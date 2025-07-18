@@ -1,0 +1,178 @@
+Materials and Methods
+Chemicals
+All chemicals were of analytical grade. Alcohols (1–12),
+aldehydes (13, 15–30), and ketones (31–40, 42–44) were
+purchased from Sigma–Aldrich (Steinheim, Germany).
+Acetaldehyde (14) and acetophenone (41) were commercially available from Fluka (Steinheim, Germany) and Merck
+(Darmstadt, Germany), respectively. NADP(H) was purchased from Biomol (Hamburg, Germany).
+
+exclusion chromatography (SEC) for initial desalting of the
+crude cell extracts, which was necessary to allow proper
+binding of the enzyme to the anion exchanger. After anion
+exchange chromatography a second SEC was used in order to
+remove the sodium chloride and to adjust a proper
+concentration of calcium ions for enzyme storage (Kulig
+et al., 2012).
+
+Storage Stability
+In order to ﬁnd suitable storage conditions for RADH, the
+puriﬁed and desalted enzyme was stored in four different
+ways: (I) in desalting buffer (TEA–HCl, 10 mmol L1, pH
+7.5) at 88C, (II) same as (I) but stored at 208C, (III) in a
+mixture of 50% (v/v) glycerol and desalting buffer (stored at
+208C) and (IV) freeze-dried and stored at 208C. For
+comparison, residual activity was followed over time using
+the standard reduction assay.
+
+SDS Electrophoresis
+SDS–PAGE (Laemmli, 1970) was carried out on a 4–12%
+NuPAGE1 Novex Bis–Tris gels (Invitrogen, Carlsbad, CA).
+For protein molecular weight estimations prestained
+protein ladder PageRulerTM Plus (10–250 kDa, Fermentas,
+Rockfold, IL) was applied. The gel was stained in SimplyBlueTM
+SafeStain (Invitrogen) or by applying SilverXpress1 Silver
+Staining Kit (Invitrogen; Supplementary Information,
+Fig. S4A).
+
+Determination of the Protein Concentration
+For determination of protein concentrations the Bradford
+method (Bradford, 1976) was applied using bovine serum
+albumin (Fermentas) as a standard, whereby the Bradford
+solution was prepared by ourselves.
+
+Expression of Recombinant RADH
+RADH cloned into the vector pET-22b(þ) was expressed
+in E. coli BL21(DE3) from Novagen (Madison, WI) as
+described previously (Kulig et al., 2012). Cultivation and cell
+disruption procedures were described elsewhere as well
+(Kulig et al., 2012).
+
+Puriﬁcation
+Here three puriﬁcation protocols of RADH were applied
+depending on the purpose of the biochemical study. The ﬁrst
+was conducted without Ca2þ ions, while for the second and
+third protocol 0.2 and 0.8 mmol L1 CaCl2, respectively, were
+added to all buffers. All puriﬁcation steps were performed in
+TEA–HCl buffer, 50 mmol L1, pH 7.5 supplemented with
+deﬁned concentrations of CaCl2, if needed. All puriﬁcation
+steps were carried out at room temperature (20–258C).
+The three-step puriﬁcation protocol employed a size
+Determination of the Native Molecular Weight
+The native molecular weight of RADH was determined by
+SEC using a SuperdexTM 200 column (diameter: 26 mm,
+length: 63 cm, gel bed volume: 334 mL, RADH loaded:
+1.7 mL, RADH concentration: 3 mg mL1; GE Healthcare,
+Uppsala, Sweden). The column was equilibrated with
+50 mmol L1 TEA–HCl buffer, pH 7.5 containing
+150 mmol L1 NaCl. The native molecular weight of
+RADH was calculated according to a calibration curve
+obtained with different standard proteins (for details see
+Supplementary Information, Fig. S4B).
+
+Oxidation Assay
+Initial rate activities were measured spectrophotometrically
+at 340 nm by following the formation (reduction) of
+Kulig et al.: Stereoselective Alcohol Dehydrogenase
+Biotechnology and Bioengineering
+1839
+NADPH at 308C in semi-micro cuvettes (total volume 1 mL)
+for 1 min. One unit (U) of enzyme is deﬁned as the amount
+of enzyme that catalyzes the production of 1 mmol NADPH
+per min at 308C for the respective substrate. The standard
+oxidation reaction contained 100 mmol L1 cyclohexanol
+and 0.5 mmol L1 NADPþ in 50 mmol L1 glycine–NaOH
+buffer pH 10.5 including 0.8 mmol L1 CaCl2. Due to high
+activity of cyclohexanol, even small changes in optima and
+stability due to changes of reaction conditions could be
+detected sensitively. All activity measurements were performed in triplicate.
+
+Reduction Assay
+Initial rate activities for reductions were measured
+spectrophotometrically at 340 nm by following the consumption (oxidation) of NADPH at 308C in semi-micro
+cuvettes (total volume 1 mL) for 1 min. One unit (U) of
+enzyme is deﬁned as the amount of enzyme that catalyzes the
+consumption of 1 mmol of NADPH per min at 308C for the
+respective substrate. The standard reduction assay contained
+10 mmol L1 benzaldehyde and 0.2 mmol L1 NADPH
+in 50 mmol L1 TEA–HCl buffer pH 7.5 including
+0.8 mmol L1 CaCl2.
+
+Effect of Salts
+The effect of different metal chlorides on the initial rate
+activity of RADH was studied using the standard reduction
+assay containing 1 mmol L1 of the respective chloride.
+Relative activities were calculated based on the initial
+activity determined for RADH without salts. Salts
+which did not reduce the initial rate activity (NaCl,
+KCl, CaCl2, MgCl2) were further tested concerning their
+effect on the enzyme stability at 08C. Therefore, the
+decrease of activity was followed using the standard
+reduction assay containing 1 mmol L1 of the respective
+salt until a signiﬁcant drop of activity (of about 20%) was
+observed.
+
+Effect of pH
+For estimation of the pH optima of the oxidation and
+reduction reaction initial rate activities were measured using
+different buffers for the reduction and oxidation assay
+(citrate–phosphate, 50 mmol L1, pH 4.0–7.0; TEA–HCl,
+50 mmol L1, pH 7.0–8.0; TRIS–HCl, 50 mmol L1, pH 7.0–
+8.5; glycine–NaOH, 50 mmol L1, pH 8.5–12.0, all supplemented with CaCl2, 0.8 mmol L1). To study the pHdependent stability, the enzyme was incubated in the
+different buffers at different pH-values at 258C and residual
+activity was followed using the reduction assay until
+complete deactivation was observed.
+
+1840
+Biotechnology and Bioengineering, Vol. 110, No. 7, July, 2013
+Effect of Temperature
+For determination of the temperature optimum initial, rate
+activities were determined with the reduction assay between
+15 and 608C. The substrate solution was preheated in the
+temperature-controlled slide of the spectrophotometer
+(Shimadzu UV-1601) until the desired temperature was
+reached. The temperature was additionally controlled with
+an external thermocoupled thermometer with digital display
+(Amarell, Kreutzwertheim, Germany). Shifts of pH due to
+temperature increases are within a tolerable range (from 15
+to 608C a pH shift of 0.9 was detected in the implemented
+TEA–HCl buffer). In order to study temperature dependent
+stability, the enzyme (concentration 0.5 mg mL1 in 200 mL
+of stock solutions) was incubated in the reduction buffer
+[TEA–HCl (50 mmol L1) þ CaCl2 (0.8 mmol L1), pH 7.5]
+in a temperature range from 0 to 408C (Thermomixer
+comfort, Eppendorf) and residual activity was followed
+using the reduction assay until 50% deactivation was
+observed at the respective temperature.
+
+Substrate Range and Stereoselectivity
+For investigation of the substrate range the assays for
+reduction and oxidation were applied in the presence of
+10 mmol L1 of each substrate, if not otherwise stated (see
+Tables II–IV). Stereoselectivity of alpha-hydroxy ketone
+biotransformations catalyzed by RADH was determined as
+described previously (Kulig et al., 2012).
+
+Determination of Kinetic Parameters
+Kinetic parameters for the reduction of different aldehydes,
+ketones, 2-HPP, and the oxidation of alcohols were
+determined by initial rate activity measurements in triplicate
+at various substrate concentrations and ﬁxed concentrations
+of NADPH (0.2 mmol L1) and NADPþ (0.8 mmol L1),
+respectively, in the respective standard buffers for reduction
+or oxidation. Kinetic parameters for the cofactors were
+determined at ﬁxed concentrations of benzaldehyde
+(15 mmol L1) and cyclohexanone (100 mmol L1) for
+the NADPH and for NADPþ using cyclohexanol
+(100 mmol L1) as substrate. The v/[S]-plots are given in
+the Supplementary Information, Fig. S7. Experimental data
+were ﬁtted to suitable kinetic models with Origin 7G and
+kinetic parameters (Vmax, KM, Ki, n) were calculated with the
+same program.
+
+Determination of Half-Lives
+Half-lives in this work are deﬁned as the time after which a
+residual activity of 50% was experimentally observed,
+independent of the kinetic of the activity decay. All
+deactivation curves are shown in the Supplementary
+Information (Figs. S1–S3 and S5–S6). Only few of them
+show ﬁrst order inactivation kinetics.

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "CombinatorialMode",
+  "type": "object",
+  "description": "A combinatorial mode does not clearly fit into any of the aforementioned subcategories and thus represents a mixture of operation modes. This kind of experiment design could be used to systematically explore various reaction conditions or components in a combined manner. This approach allows the exploration of multiple options, such as varying substrate concentrations, catalysts, or reaction conditions. The goal is to identify the optimal conditions or combinations that most efficiently facilitate desired reactions in biocatalysis.",
+  "properties": {
+    "reactor_type": {
+      "title": "reactor_type",
+      "type": "string"
+    }
+  },
+  "required": [
+    "reactor_type"
+  ],
+  "additionalProperties": false
+}

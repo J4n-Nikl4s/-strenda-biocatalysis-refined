@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "Continuous",
+  "type": "object",
+  "description": "In the continuous operation mode, the reaction operates continuously with substrates continuously supplied and products continuously removed. This mode enables uniform product formation and is particularly suitable for large-scale production.",
+  "properties": {
+    "reactor_type": {
+      "title": "reactor_type",
+      "type": "string"
+    }
+  },
+  "required": [
+    "reactor_type"
+  ],
+  "additionalProperties": false
+}

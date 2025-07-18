@@ -1,0 +1,15 @@
+Improvement Opportunities
+
+Include a detailed description of the cell disruption process used for RADH expression in E. coli BL21(DE3) to align with the cell_disruption_process field.
+Provide the concentration of the biocatalyst in the appropriate unit to fulfill the concentration and concentration_unit fields.
+Describe any special treatments or conditions applied to the biocatalyst that are not covered by the existing metadata to address the special_treatment field.
+Description improvements
+
+cell_disruption_process: "Describe the specific cell disruption techniques used, including mechanical, chemical, or physical methods, to release cell contents for biocatalyst preparation."
+concentration: "Specify the concentration of the biocatalyst, ensuring it is expressed in a standard unit such as g/L."
+special_treatment: "Detail any additional methods, procedures, or conditions applied to the biocatalyst that are crucial for reproducibility and not covered by other metadata."
+Schema Improvements
+
+Consider adding a field for "Expression System" to capture the host organism and vector used for recombinant protein expression, as this information is often critical for reproducibility.
+Introduce a field for "Storage Conditions" to document how the biocatalyst is stored, as this can impact stability and activity.
+Add a field for "Purification Method" to capture the specific purification techniques used, as this can affect the purity and activity of the biocatalyst.

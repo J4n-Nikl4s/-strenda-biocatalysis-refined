@@ -1,0 +1,7 @@
+{
+  "cell_disruption_process": "Cell disruption procedures were described elsewhere (Kulig et al., 2012).",
+  "concentration": 3,
+  "concentration_determination_method": "The Bradford method was applied using bovine serum albumin as a standard.",
+  "concentration_unit": "mg/mL",
+  "special_treatment": "The enzyme was stored in different conditions to determine storage stability, including in desalting buffer, with glycerol, and freeze-dried. Purification protocols varied with or without Ca2+ ions."
+}

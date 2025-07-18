@@ -1,0 +1,10 @@
+{
+  "activity": 0,
+  "activity_determination_method": "Spectrophotometric measurement at 340 nm",
+  "activity_unit": "U (units)",
+  "concentration": 0,
+  "concentration_determination_method": "Bradford method",
+  "concentration_unit": "mg/mL",
+  "formulation": "Purified and desalted enzyme stored in various conditions",
+  "special_treatment": "Enzyme stored in different conditions to assess stability"
+}

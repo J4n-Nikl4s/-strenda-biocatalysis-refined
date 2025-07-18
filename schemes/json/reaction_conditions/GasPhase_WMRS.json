@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "GasPhase_WMRS",
+  "type": "object",
+  "description": "Definition of the gas phase used in the reaction. If a gas mixture is involved, this must be taken into account.",
+  "properties": {
+    "gas_amount": {
+      "title": "gas_amount",
+      "type": "number",
+      "description": "Concentration of the gas in the gas phase.",
+      "minimum": 0.0
+    },
+    "gas_type": {
+      "title": "gas_type",
+      "type": "string",
+      "description": "Information about the type of gas used, whether it is nitrogen, carbon dioxide, argon, oxygen or other gases."
+    },
+    "gas_unit": {
+      "title": "gas_unit",
+      "type": "string",
+      "description": "In the case of gases, common units are volume percentage (Vol %), volume fraction (Vol/Vol), mole percentage (Mol %) or molar fraction (Mol/Mol)."
+    }
+  },
+  "required": [
+    "gas_type",
+    "gas_amount",
+    "gas_unit"
+  ],
+  "additionalProperties": false
+}

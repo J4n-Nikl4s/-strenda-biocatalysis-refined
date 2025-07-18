@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "Plate",
+  "type": "object",
+  "description": "It's crucial to provide detailed information about the plate type, material, well configuration, and other relevant specifications to ensure reproducibility and accuracy of the experimental setup.Stirred Tank Reactor",
+  "properties": {
+    "lot_number": {
+      "title": "lot_number",
+      "type": "number",
+      "description": "The lot number, also known as a batch number or code, is a unique identifier assigned to a specific batch of a product. This makes it possible to check or track information on production.",
+      "minimum": 0.0
+    },
+    "number_of_wells": {
+      "title": "number_of_wells",
+      "type": "string",
+      "description": "The total number of wells or cavities in the plate."
+    },
+    "plate_material": {
+      "title": "plate_material",
+      "type": "string",
+      "description": "The material from which the plate is made, such as plastic (polystyrene), glass, or metal."
+    },
+    "plate_type": {
+      "title": "plate_type",
+      "type": "string",
+      "description": "The type of plate, such as microtiter plate, deep-well plate, or others."
+    },
+    "sealing_material": {
+      "title": "sealing_material",
+      "type": "string",
+      "description": "The material of the sealing film or lid. ( if_applicable )"
+    },
+    "sealing_method": {
+      "title": "sealing_method",
+      "type": "string",
+      "description": "Indicate if the wells were sealed with a sealing film or lid. ( if_applicable )"
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific methods, procedures, characteristics or aspects related to the plate or its preparation for the reaction that are important for reproducibility and are not                    described by the aforementioned metadata, they should be explained here."
+    },
+    "supplier": {
+      "title": "supplier",
+      "type": "string",
+      "description": "Information about the supplier from which the plate was purchased."
+    },
+    "well_arrangement": {
+      "title": "well_arrangement",
+      "type": "string",
+      "description": "The arrangement of the wells in the plate, for example, in rows and columns."
+    },
+    "well_shape": {
+      "title": "well_shape",
+      "type": "string",
+      "descrption": "The shape of the wells, such as round, rectangular, square, etc."
+    },
+    "well_volume": {
+      "title": "well_volume",
+      "type": "string",
+      "description": "The volume of each well is, usually expressed in µL (microliters)."
+    }
+  },
+  "required": [
+    "plate_type",
+    "plate_material",
+    "number_of_wells",
+    "well_shape",
+    "well_volume",
+    "well_arrangement",
+    "supplier",
+    "lot_number",
+    "sealing_method",
+    "sealing_material",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

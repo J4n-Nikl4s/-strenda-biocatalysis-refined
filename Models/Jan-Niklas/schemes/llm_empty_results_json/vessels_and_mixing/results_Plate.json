@@ -1,0 +1,13 @@
+{
+    "plate_type": "",
+    "plate_material": "",
+    "number_of_wells": "",
+    "well_shape": "",
+    "well_volume": "",
+    "well_arrangement": "",
+    "supplier": "",
+    "lot_number": "",
+    "sealing_method": "",
+    "sealing_material": "",
+    "special_treatment": ""
+}

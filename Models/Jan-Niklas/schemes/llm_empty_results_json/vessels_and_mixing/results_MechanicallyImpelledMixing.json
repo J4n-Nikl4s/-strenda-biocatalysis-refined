@@ -1,0 +1,23 @@
+{
+    "stirring_type": "",
+    "stirrer_material": "",
+    "supplier": "",
+    "number_of_stirrers": "",
+    "distance_between_stirrers": "",
+    "distance_between_stirrers_unit": "",
+    "stirrer_blade_pitch_angle": "",
+    "number_of_stirrer_blades": "",
+    "stirrer_blade_size": "",
+    "stirrer_blade_size_unit": "",
+    "stirrer_geometry": "",
+    "stirrer_speed": "",
+    "speed_unit": "",
+    "height_of_stirrer_above_vessel_base": "",
+    "height_of_stirrer_above_vessel_base_unit": "",
+    "power_per_volume": "",
+    "power_per_volume_unit": "",
+    "stir_bar_size": "",
+    "stir_bar_size_unit": "",
+    "stir_bar_shape": "",
+    "special_treatment": ""
+}

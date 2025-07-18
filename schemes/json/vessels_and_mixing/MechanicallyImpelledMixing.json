@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "MechanicallyImpelledMixing",
+  "type": "object",
+  "description": "When utilizing mechanically impelled mixing in enzymatic reactions, it is essential to provide information about the mixing method and related parameters.Liquid or gas impelled mixing",
+  "properties": {
+    "distance_between_stirrers": {
+      "title": "distance_between_stirrers",
+      "type": "number",
+      "description": "Information about the distance, spacing or separation between the stirring rods or impellers within a reaction vessel or container.",
+      "minimum": 0.0
+    },
+    "distance_between_stirrers_unit": {
+      "title": "distance_between_stirrers_unit",
+      "type": "string",
+      "description": "The distance between stirrers can be specified in mm (millimeters), cm (centimeters), or m (meters), depending on the size and scale of the stirring system."
+    },
+    "height_of_stirrer_above_vessel_base": {
+      "title": "height_of_stirrer_above_vessel_base",
+      "type": "number",
+      "description": "The vertical distance between the bottom of the vessel or container (where the reaction takes place) and the lowest point of the stirring element or stirrer, which is usually located just above the         vessel base.",
+      "minimum": 0.0
+    },
+    "height_of_stirrer_above_vessel_base_unit": {
+      "title": "height_of_stirrer_above_vessel_base_unit",
+      "type": "string",
+      "description": "Common units for defining the vertical distance between the bottom of the vessel and the lowest point of the stirrer include: mm (millimeters), cm (centimeters) and m (meters)."
+    },
+    "number_of_stirrer_blades": {
+      "title": "number_of_stirrer_blades",
+      "type": "number",
+      "description": "The number of blades on each stirrer.",
+      "minimum": 0.0
+    },
+    "number_of_stirrers": {
+      "title": "number_of_stirrers",
+      "type": "number",
+      "description": "The number of stirrers available in the system.",
+      "minimum": 0.0
+    },
+    "power_per_volume": {
+      "title": "power_per_volume",
+      "type": "number",
+      "description": "The amount of stirring power or energy input into a system per unit volume.",
+      "minimum": 0.0
+    },
+    "power_per_volume_unit": {
+      "title": "power_per_volume_unit",
+      "type": "string",
+      "description": "The units commonly used for expressing the stirring power are W/L (watts per liter) or kW/m³ (kilowatts per cubic meter)."
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific methods, procedures, characteristics or aspects related to the mechanically impelled mixing (stirring) that are important for reproducibility and are not described by        the aforementioned metadata, they should be explained here."
+    },
+    "speed_unit": {
+      "title": "speed_unit",
+      "type": "string",
+      "description": "The unit for stirring speed can be expressed in RPM (revolutions per minute), Hz (Hertz), or rad/s (radians per second), depending on the measurement instruments and scientific conventions used."
+    },
+    "stir_bar_shape": {
+      "title": "stir_bar_shape",
+      "type": "string",
+      "description": "The shape or configuration of the stir bar, whether it's cylindrical, octagonal, oval, or another shape. Different shapes can interact with the reaction mixture differently, influencing mixing patterns and efficiency."
+    },
+    "stir_bar_size": {
+      "title": "stir_bar_size",
+      "type": "number",
+      "minimum": 0.0,
+      "decription": "The length, diameter, or volume of the stir bar used in the experiment. Different sizes of stir bars can affect the efficiency of mixing based on the volume of the reaction mixture and the vessel size."
+    },
+    "stir_bar_size_unit": {
+      "title": "stir_bar_size_unit",
+      "type": "number",
+      "decription": "The size of a stir bar can be expressed in various units such as length in cm (centimeters), mm (millimeters), m (meters), in (inches), or ft (feet); diameter in mm (millimeters), cm (centimeters), or μm (micrometers); and cm³ (volume in cubic centimeters) or mL (milliliters). The choice of unit depends on the specific dimensions being measured to describe the stir bar's size accurately within experiments.",
+      "minimum": 0.0
+    },
+    "stirrer_blade_pitch_angle": {
+      "title": "stirrer_blade_pitch_angle",
+      "type": "number",
+      "description": "The pitch angle at which the blades or paddles of a stirring mechanism are positioned relative to the plane of rotation. It's typically expressed in ° (degrees).",
+      "minimum": 0.0
+    },
+    "stirrer_blade_size": {
+      "title": "stirrer_blade_size",
+      "type": "number",
+      "description": "The size of the impeller blades in a stirred tank reactor.",
+      "minimum": 0.0
+    },
+    "stirrer_blade_size_unit": {
+      "title": "stirrer_blade_size_unit",
+      "type": "string",
+      "description": "In the case of impellers in a stirred tank reactor, the diameter of the impeller blades is typically specified. This diameter can be measured in millimeters (mm) or centimeters (cm)."
+    },
+    "stirrer_geometry": {
+      "title": "stirrer_geometry",
+      "type": "string",
+      "description": "There are various morphologies or geometries, such as radial impellers, axial impellers, helical ribbon impellers, paddle impellers, and more, depending on its design and intended purpose."
+    },
+    "stirrer_material": {
+      "title": "stirrer_material",
+      "type": "string",
+      "description": "The specific composition or nature of the material should be indicated, e.g. whether it is made of magnetic material, a PTFE (polytetrafluoroethylene) coating, stainless steel or other relevant features that determine its structural or functional properties within the experimental setup."
+    },
+    "stirrer_speed": {
+      "title": "stirrer_speed",
+      "type": "number",
+      "description": "Specify the speed or frequency at which the stirring was conducted.",
+      "minimum": 0.0
+    },
+    "stirring_type": {
+      "title": "stirring_type",
+      "type": "string",
+      "description": "There are several types of stirring methods used in laboratory and industrial settings, including magnetic stirring (from vessel bottom), mechanical stirring, overhead stirring and other methods."
+    },
+    "supplier": {
+      "title": "supplier",
+      "type": "string",
+      "description": "If available, details of the specific designation or manufacturer's name of the stirrer should be provided for precise identification."
+    }
+  },
+  "required": [
+    "stirring_type",
+    "stirrer_material",
+    "supplier",
+    "number_of_stirrers",
+    "distance_between_stirrers",
+    "distance_between_stirrers_unit",
+    "stirrer_blade_pitch_angle",
+    "number_of_stirrer_blades",
+    "stirrer_blade_size",
+    "stirrer_blade_size_unit",
+    "stirrer_geometry",
+    "stirrer_speed",
+    "speed_unit",
+    "height_of_stirrer_above_vessel_base",
+    "height_of_stirrer_above_vessel_base_unit",
+    "power_per_volume",
+    "power_per_volume_unit",
+    "stir_bar_size",
+    "stir_bar_size_unit",
+    "stir_bar_shape",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

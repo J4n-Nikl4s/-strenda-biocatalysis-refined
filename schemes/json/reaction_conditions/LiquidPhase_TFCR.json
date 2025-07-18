@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "LiquidPhase_TFCR",
+  "type": "object",
+  "description": "If more then one liquid phase exists the metadata has to be recorded according to the number of liquid phases.Solid phase",
+  "properties": {
+    "liquid_amount": {
+      "title": "liquid_amount",
+      "type": "number",
+      "description": "Amount of the liquid added to the reaction.",
+      "minimum": 0.0
+    },
+    "liquid_type": {
+      "title": "liquid_type",
+      "type": "string",
+      "description": "Information about the type of liquid used, whether it is an organic solvent, an aqueous buffer or a mixture of both."
+    },
+    "liquid_unit": {
+      "title": "liquid_unit",
+      "type": "string",
+      "description": "In case of aqueous liquids, mL (milliliter) is often used as unit, in case of organic solvents, volume percentage (Vol %) or volume fraction (Vol/Vol) is utilized."
+    }
+  },
+  "required": [
+    "liquid_type",
+    "liquid_amount",
+    "liquid_unit"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,12 @@
+{
+  "biocatalyst": "RADH",
+  "carrier_material": "Not specified",
+  "concentration": 3,
+  "concentration_determination_method": "Bradford method",
+  "concentration_unit": "mg/mL",
+  "immobilisation_chemistry": "Not specified",
+  "immobilisation_method": "Not specified",
+  "linkers": "Not specified",
+  "purification_method": "Size exclusion chromatography, anion exchange chromatography",
+  "special_treatment": "Storage in different conditions, effect of salts, pH, and temperature on activity and stability"
+}

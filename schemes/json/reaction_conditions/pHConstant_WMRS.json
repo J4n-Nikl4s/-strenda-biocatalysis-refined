@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "pHConstant_WMRS",
+  "type": "object",
+  "description": "Information about the pH value in the system, if the pH is constant over the course of the reaction.Event-based pH shift",
+  "properties": {
+    "calibration_pH_electrode": {
+      "title": "calibration_pH_electrode",
+      "type": "string",
+      "description": "Usually, a pH electrode is calibrated using standard buffers at 20-25 °C. If the conditions in the reaction mixture differ from this, it should be specified. ( if_applicable )"
+    },
+    "detected_how": {
+      "title": "detected_how",
+      "type": "string",
+      "description": "The pH value of a reaction can be determined in various ways, such as using a pH meter, pH paper, titration, electrochemical sensors, or other methods."
+    },
+    "detected_when": {
+      "title": "detected_when",
+      "type": "string",
+      "description": "Specification of the timepoint at which the pH was measured. It includes whether the pH value was measured before, during, or after the reaction and whether all components of the reaction solution were     already present or if some were added after the measurement."
+    },
+    "pH_value": {
+      "title": "pH_value",
+      "type": "number",
+      "description": "Value of the pH.",
+      "minimum": 0.0
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific methods, procedures, characteristics or aspects related to the pH value that are important for reproducibility and are not described by the aforementioned                    metadata, they should be explained here."
+    },
+    "temperature": {
+      "title": "temperature",
+      "type": "number",
+      "description": "The temperature at the time of pH measurement.",
+      "minimum": 0.0
+    },
+    "temperature_unit": {
+      "title": "temperature_unit",
+      "type": "string",
+      "description": "The temperature can be specified in units such as K, °C, or °F."
+    }
+  },
+  "required": [
+    "pH_value",
+    "detected_when",
+    "detected_how",
+    "temperature",
+    "temperature_unit",
+    "calibration_pH_electrode",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

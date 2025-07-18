@@ -1,0 +1,14 @@
+{
+    "type": "",
+    "material": "",
+    "volume": "",
+    "volume_unit": "",
+    "geometry": "",
+    "bottom_type": "",
+    "gas_consumption": "",
+    "gas_supply": "",
+    "gas_supply_rate": "",
+    "gas_supply_rate_unit": "",
+    "temperature_control": "",
+    "special_treatment": ""
+}

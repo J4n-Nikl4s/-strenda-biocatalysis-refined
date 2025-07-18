@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "FedBatch",
+  "type": "object",
+  "description": "In the fed-batch operation mode, additional compounds (e.g., substrates, acid/base for pH regulation, etc.) are gradually added during the reaction to control reaction conditions or enhance product formation. This mode allows for better control of the reaction progress and can increase productivity.",
+  "properties": {
+    "reactor_type": {
+      "title": "reactor_type",
+      "type": "string"
+    }
+  },
+  "required": [
+    "reactor_type"
+  ],
+  "additionalProperties": false
+}

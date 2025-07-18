@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "Shaking",
+  "type": "object",
+  "description": "Shaking is an essential method for ensuring uniform mixing and, consequently, recording relevant metadata is crucial for maintaining consistent reaction conditions.Mechanically impelled mixing (stirring)",
+  "properties": {
+    "deflection": {
+      "title": "deflection",
+      "type": "number",
+      "description": "Information about the extent of deflection or bending of the agitator from its original position of the horizontal shaking system.",
+      "minimum": 0.0
+    },
+    "deflection_unit": {
+      "title": "deflection_unit",
+      "type": "string",
+      "description": "Units such as mm (millimeters) or μm (micrometers) could be used to describe deflection in relation to the movement of the shaking system."
+    },
+    "position": {
+      "title": "position",
+      "type": "string",
+      "description": "Information regarding the orientation of the vessel in the shaking system relative to deflection."
+    },
+    "shaking_type": {
+      "title": "shaking_type",
+      "type": "string",
+      "description": "The type of shaking used to mix the reaction (e.g., horizontal, vertical, back-and-forth or circulatory)."
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific methods, procedures, characteristics or aspects related to the shaking that are important for reproducibility and are not described by the aforementioned metadata, they      should be explained here."
+    },
+    "speed": {
+      "title": "speed",
+      "type": "number",
+      "description": "Specify the speed or frequency at which the shaking was conducted.",
+      "minimum": 0.0
+    },
+    "speed_unit": {
+      "title": "speed_unit",
+      "type": "string",
+      "description": "The shaking speed or frequency could be expressed in units such as rpm (rounds per minute) or Hz (cycles per second)."
+    }
+  },
+  "required": [
+    "shaking_type",
+    "deflection",
+    "deflection_unit",
+    "speed",
+    "speed_unit",
+    "position",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

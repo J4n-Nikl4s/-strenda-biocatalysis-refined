@@ -1,0 +1,18 @@
+{
+    "michaelis_constant": "",
+    "michaelis_constant_unit": "",
+    "maximum_reaction_rate": "",
+    "maximum_reaction_rate_unit": "",
+    "turnover_number": "",
+    "turnover_number_unit": "",
+    "catalytic_efficiency": "",
+    "catalytic_efficiency_unit": "",
+    "dissociation_constant": "",
+    "dissociation_constant_unit": "",
+    "inhibition_type": "",
+    "inhibition_constant": "",
+    "inhibition_constant_unit": "",
+    "hill_coefficient": "",
+    "enzyme_stability": "",
+    "special_treatment": ""
+}

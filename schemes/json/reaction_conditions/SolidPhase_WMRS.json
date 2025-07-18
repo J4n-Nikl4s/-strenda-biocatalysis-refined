@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "SolidPhase_WMRS",
+  "type": "object",
+  "description": "Definition of the solid phase used in the reaction.Gas phase",
+  "properties": {
+    "solid_amount": {
+      "title": "solid_amount",
+      "type": "number",
+      "description": "Mass of the solid compound used in the reaction solution.",
+      "minimum": 0.0
+    },
+    "solid_type": {
+      "title": "solid_type",
+      "type": "string",
+      "description": "Information about the type of solid used, whether it is a support material, solid catalyst, or any other solid compound."
+    },
+    "solid_unit": {
+      "title": "solid_unit",
+      "type": "string",
+      "description": "In the case of a solid compound, common units like grams, milligrams, or micrograms can be used."
+    }
+  },
+  "required": [
+    "solid_type",
+    "solid_amount",
+    "solid_unit"
+  ],
+  "additionalProperties": false
+}

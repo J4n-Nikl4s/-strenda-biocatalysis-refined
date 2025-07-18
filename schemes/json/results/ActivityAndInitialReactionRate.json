@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "ActivityAndInitialReactionRate",
+  "type": "object",
+  "properties": {
+    "initial_reaction_rate": {
+      "title": "initial_reaction_rate",
+      "type": "number",
+      "description": "The initial reaction rate refers to the rate at which the product is formed in the first 10% of the enzymatic reaction under specific initial substrate concentrations and reaction conditions."
+    },
+    "initial_reaction_rate_unit": {
+      "title": "initial_reaction_rate_unit",
+      "type": "string",
+      "description": "Typically, the initial reaction rate is expressed as mol/L/min (moles per liter per minute) or µmol/mL/min (micromoles per milliliter per minute)."
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific metrics, parameters, characteristics or aspects related to the activity or initial reaction rate that are important to document the results accurately and are not described by the aforementioned attributes, they should be explained here."
+    },
+    "specific_activity": {
+      "title": "specific_activity",
+      "type": "number",
+      "description": "The specific activity refers to the amount of product formed or substrate consumed per unit of enzyme per unit of time.",
+      "minimum": 0.0
+    },
+    "specific_activity_unit": {
+      "title": "specific_activity_unit",
+      "type": "string",
+      "description": "The specific activity is typically expressed in µmol/min/mg (micromoles per minute per milligram of protein)."
+    }
+  },
+  "required": [
+    "specific_activity",
+    "specific_activity_unit",
+    "initial_reaction_rate",
+    "initial_reaction_rate_unit",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "StorageConditions",
+  "type": "object",
+  "properties": {
+    "additives": {
+      "title": "additives",
+      "type": "string",
+      "description": "Additives for the storage of components can include antioxidants, stabilizers, drying agent, or even inert gases (argon, nitrogen), among others."
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific characteristics or aspects related to a component that are important for reproducibility and are not described by the aforementioned metadata, they should be explained       here."
+    },
+    "storage_start": {
+      "title": "storage_start",
+      "type": "object",
+      "description": "The date since the component has been stored.",
+      "$ref": "#/$defs/date"
+    },
+    "temperature": {
+      "title": "temperature",
+      "type": "number",
+      "description": "Temperature at which the component is stored."
+    },
+    "temperature_unit": {
+      "title": "temperature_unit",
+      "type": "string",
+      "description": "The temperature can be specified in units such as K, °C, or °F."
+    }
+  },
+  "required": [
+    "temperature",
+    "temperature_unit",
+    "storage_start",
+    "additives",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,214 @@
+{
+    "Title": "Blank document in JSON format for manual collection of information in test papers",
+    "BiocatalysisReactionSet": {
+        "Reactions - Type: BiocatalysisReaction": "",
+        "ResultsAnalyis - Type: string": ""
+    },
+    "BiocatalysisReaction": {
+        "Conditions - Type: BatchIncubation": "",
+        "WhatIsMeasured - Type: MeasuredSpecies": "",
+        "ProgressData - Type: TimePoint": "",
+        "InitialRate - Type: float": ""
+    },
+    "MeasuredSpecies": {
+        "TheSpecies - Type: SmallCompound, Macromolecule": "",
+        "MeasurementMethod - Type: string": "",
+        "MethodDetails - Type: string": ""
+    },
+    "TimePoint": {
+        "ReactionTime - Type: float": "",
+        "MeasuredConcentrations - Type: float": ""
+    },
+    "BatchIncubation": {
+        "Temperature  - Type: float": "",
+        "Pressure  - Type: float": "",
+        "TheMedium  - Type: Solution, MultiPhaseDispersion": "",
+        "GasSupply  - Type: GasSupplyDetails": "",
+        "FedBatchDetails  - Type: pHmeasureAdjust, ConcentrationControl, ProgrammedFeed": "",
+        "MixingConditions  - Type: ShakenVessel, StirredReactor, FlowImpelledReactor": "",
+        "BatchTime  - Type: float": "",
+        "DispersionSampling  - Type: RepresentativeSample, OnePhaseSample": "",
+        "SampleQuenching  - Type: StopReagent, TemperatureChange": ""
+    },
+    "MultiPhaseDispersion": {
+        "AddedItem  - Type: AddedItemwithAmount": "",
+        "pHmeasuredAdjusted  - Type: pHmeasureAdjust": ""
+    },
+    "AddedItemwithAmount": {
+        "AnItem  - Type: Solution, BiocatalystUsed, DescribeSolid": "",
+        "AmountAdded  - Type: float": ""
+    },
+    "Solution": {
+        "MainSolvent  - Type: SmallCompound": "",
+        "ASolute  - Type: SolutewithConc": "",
+        "pHdetails  - Type: pHmeasureAdjust": ""
+    },
+    "SmallCompound": {
+        "CompoundName  - Type: string": "",
+        "InChi  - Type: string": "",
+        "IUPACname  - Type: string": "",
+        "ChEBI_ID  - Type: string": "",
+        "PubChem_CID  - Type: string": "",
+        "Source  - Type: SuppliedProduct, SelfProducedMaterial": "",
+        "Purity  - Type: string": ""
+    },
+    "SolutewithConc": {
+        "TheMaterial  - Type: SmallCompound, BiocatalystUsed, Macromolecule": "",
+        "Concentration - Type: float": ""
+    },
+    "pHmeasureAdjust": {
+        "pHvalue - Type: float": "",
+        "MeasurementTemperature - Type: float": "",
+        "CalibrationTemperature - Type: float": "",
+        "NonaqueousCalibration - Type: string": "",
+        "Titrant - Type: Solution": "",
+        "ControlSystem - Type: string": ""
+    },
+    "Macromolecule": {
+        "CompoundName - Type: string": "",
+        "DatabaseUsed - Type: string": "",
+        "Identifier - Type: string": "",
+        "Source - Type: SuppliedProduct, SelfProducedMaterial": "",
+        "Purity - Type: string": ""
+    },
+    "SelfProducedMaterial": {
+        "ProductionMethod - Type: string": ""
+    },
+    "DescribeSolid": {
+        "Details - Type: string": ""
+    },
+    "GasSupplyDetails": {
+        "Composition  - Type: string": "",
+        "FlowRate - Type: float": "",
+        "ContactSystem - Type: string": ""
+    },
+    "ConcentrationControl": {
+        "MonitoredSpecies - Type: MeasuredSpecies": "",
+        "FeedAlgorithm - Type: string": "",
+        "FeedMade - Type: Solution, MultiPhaseDispersion, DescribeSolid": ""
+    },
+    "ProgrammedFeed": {
+        "FeedMade - Type: Solution, MultiPhaseDispersion, DescribeSolid": "",
+        "ContinuousFeedRate - Type: float": "",
+        "DosingSchedule - Type: string": ""
+    },
+    "ShakenVessel": {
+        "ShapeDimensions - Type: string": "",
+        "Materials - Type: string": "",
+        "Sealing - Type: string": "",
+        "ShakingDetails - Type: string": ""
+    },
+    "StirredReactor": {
+        "ShapeDimensions - Type: string": "",
+        "Materials - Type: string": "",
+        "ImpellerTypeDimensions - Type: string": "",
+        "ImpellerRate - Type: string": ""
+    },
+    "FlowImpelledReactor": {
+        "Properties - Type: string": ""
+    },
+    "RepresentativeSample": {
+        "Procedure - Type: string": ""
+    },
+    "OnePhaseSample": {
+        "PhaseSeparation - Type: Separation": "",
+        "PhaseSampled - Type: string": ""
+    },
+    "StopReagent": {
+        "TheReagent - Type: Solution": "",
+        "StoptoSampleRatio - Type: float": ""
+    },
+    "TemperatureChange": {
+        "TemperatureApplied - Type: float": "",
+        "HoldTime - Type: float": ""
+    },
+    "ContinuousReaction": {
+        "FeedComposition - Type: Solution": "",
+        "FeedRate - Type: float": "",
+        "ReactorType - Type: string": ""
+    },
+    "ProteinDescription": {
+        "ProteinName - Type: string": "",
+        "ProteinSequence - Type: string": "",
+        "UniProtKBlink - Type: string": "",
+        "PostTranslationalModification - Type: DescribePTM": "",
+        "EnzymeClassification - Type: string": ""
+    },
+    "BiocatalystUsed": {
+        "Preparations - Type: BiocatalystPreparation": "",
+        "FormulationModification - Type: FormulationModification": "",
+        "StorageandStability - Type: StorageStability": "",
+        "IsSoluble - Type: boolean": "",
+        "SolidProperties - Type: string": "",
+        "StandardAssay - Type: StandardAssay": ""
+    },
+    "BiocatalystPreparation": {
+        "Protein - Type: ProteinDescription": "",
+        "Source - Type: SuppliedProduct, SelfProduced": "",
+        "Purity - Type: ProteinPurity": "",
+        "AmountBasis - Type: string": "",
+        "StorageandStability - Type: StorageStability": "",
+        "StandardAssay - Type: StandardAssay": ""
+    },
+    "StandardAssay": {
+        "AssayConditions - Type: BatchIncubation": "",
+        "MeasuredActivity - Type: string": ""
+    },
+    "SuppliedProduct": {
+        "Supplier - Type: string": "",
+        "Name - Type: string": "",
+        "ProductCode - Type: string": "",
+        "LotNo - Type: string": ""
+    },
+    "SelfProduced": {
+        "ExpressionSystem - Type: string": "",
+        "SequenceDNA - Type: string": "",
+        "SequencePlasmid - Type: string": "",
+        "SequenceSpecification - Type: string": "",
+        "OriginOrganism - Type: string": "",
+        "Purification - Type: string": ""
+    },
+    "ProteinPurity": {
+        "Purity - Type: float": "",
+        "PurityDetermination - Type: string": "",
+        "SpecialTreatment - Type: string": ""
+    },
+    "FormulationModification": {
+        "AnIncubation - Type: BatchIncubation": "",
+        "ASeparation - Type: Separation": "",
+        "ACharacterisation - Type: Characterisation": ""
+    },
+    "Separation": {
+        "SeparationDetails - Type: string": ""
+    },
+    "Characterisation": {
+        "AMeasurement - Type: string": ""
+    },
+    "DescribePTM": {
+        "PTMDetails - Type: string": ""
+    },
+    "StorageStability": {
+        "WetUnfrozen - Type: BatchIncubation": "",
+        "Frozen - Type: FrozenStorage": "",
+        "Dried - Type: DryStorage": "",
+        "MaximalStorageTime - Type: float": "",
+        "StatementLoss - Type: string": ""
+    },
+    "Freezing": {
+        "WhatisFrozen - Type: Solution, MultiPhaseDispersion": "",
+        "FreezeTemperature - Type: float": "",
+        "FreezingProcess - Type: string": ""
+    },
+    "FrozenStorage": {
+        "InitialFreezing - Type: Freezing": "",
+        "HoldTemperature - Type: float": "",
+        "ThawProcess - Type: string": ""
+    },
+    "DryStorage": {
+        "FreezeDrying - Type: string": "",
+        "AirDrying - Type: string": "",
+        "SprayDrying - Type: string": "",
+        "HoldTemperature - Type: float": "",
+        "Rehydration - Type: string": ""
+    }
+}

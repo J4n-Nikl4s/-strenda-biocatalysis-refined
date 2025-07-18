@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "ThermodynamicParameters",
+  "type": "object",
+  "description": "Understanding the energy dynamics and spontaneity of reactions through thermodynamic parameters is essential for efficient biocatalysis. For a comprehensive report around the technical key data of the kinetic parameters, see literature for further information, e.g. Heintz6.",
+  "properties": {
+    "enthalpy_change": {
+      "title": "enthalpy_change",
+      "type": "string",
+      "description": "The enthalpy ( H ) represents the heat content within a system, expressing the quantity and nature of chemical bonds. This thermodynamic property cannot be measured independently. However, measurable is the change in enthalpy (Δ H ), which refers to the amount of heat absorbed or released during a chemical reaction (under constant pressure), also known as the reaction enthalpy. Δ H  > 0: Heat energy is supplied; the reaction is endothermic . Δ H Δ S  > 0: The disorder of the system increases. Δ S"
+    },
+    "gibbs_free_energy_change": {
+      "title": "gibbs_free_energy_change",
+      "type": "string",
+      "description": "The Gibbs free energy ( G ) represents the portion of energy capable of performing work in a reaction under constant temperature and pressure, providing insights into the spontaneity of the reaction. While the absolute value of the free energy cannot be measured directly, the change in free energy (Δ G ) throughout the reaction, known as free reaction enthalpy, is measurable. As indicated by the Gibbs-Helmholtz equation, it depends on changes in enthalpy (heat content) and entropy (system disorder) during the reaction. Δ G Δ G  = 0: The system is at equilibrium; no work is performed. Δ G  > 0: The reaction does not proceed spontaneously; it is endergonic . A supply of free energy is required to drive the reaction."
+    },
+    "special_treatment": {
+      "title": "special_treatment",
+      "type": "string",
+      "description": "If there are any other specific metrics, parameters, characteristics or aspects related to the thermodynamic parameters that are important to document the results accurately and are not described by the aforementioned attributes, they should be explained here."
+    }
+  },
+  "required": [
+    "gibbs_free_energy_change",
+    "enthalpy_change",
+    "special_treatment"
+  ],
+  "additionalProperties": false
+}

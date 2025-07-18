@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.github.com/my/repo/",
+  "title": "SamplingDescription",
+  "type": "object",
+  "description": "Information about the sampling process, used during the experiment. In some experiments no sampling is taking place at all, for example, if an experiment is monitored via a photospectrometer in a 96-well plate over time.",
+  "properties": {
+    "gas_phase": {
+      "title": "gas_phase",
+      "type": "string",
+      "description": "Information about the composition of the gas phase above the reaction solution, including gases such as nitrogen, carbon dioxide, argon, oxygen or other gases."
+    },
+    "mixing_during_sampling": {
+      "title": "mixing_during_sampling",
+      "type": "string",
+      "description": "Provide information about whether the reaction was mixed during sampling, as this can affect the representativeness of the collected sample."
+    },
+    "time": {
+      "title": "time",
+      "type": "number",
+      "description": "The time at which the sample was taken."
+    },
+    "vessel_opened_for_sampling": {
+      "title": "vessel_opened_for_sampling",
+      "type": "string",
+      "description": "Information about whether the reaction vessel was opened for sampling or not."
+    },
+    "volume_per_sample": {
+      "title": "volume_per_sample",
+      "type": "number",
+      "description": "Volume of the collected sample.",
+      "minimum": 0.0
+    },
+    "volume_per_sample_unit": {
+      "title": "volume_per_sample_unit",
+      "type": "string",
+      "description": "Common units include mL (milliliters), μl (microliters), g (grams), or other volume units, depending on whether the samples are liquid or solid."
+    }
+  },
+  "required": [
+    "volume_per_sample",
+    "volume_per_sample_unit",
+    "mixing_during_sampling",
+    "vessel_opened_for_sampling",
+    "gas_phase",
+    "time"
+  ],
+  "additionalProperties": false
+}
