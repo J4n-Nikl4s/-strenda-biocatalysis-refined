@@ -43,7 +43,7 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __catalyzed_reaction__
   - Type: string
-  - Description: The reaction catalyzed by the biocatalyst.
+  - Description: The chemical reaction catalyzed by the biocatalyst.
 
 - __sequence_amino_acid__
   - Type: string
@@ -51,15 +51,15 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __sequence_DNA__
   - Type: string
-  - Description: The DNA sequence of the biocatalyst including any tags and linkers.
+  - Description: The DNA sequence of the biocatalyst including any tags and linkers. DNA sequence consisted out of Adenine (A), Thymine (T), Cytosine (C), and Guanine (G), e.g., ATGGAT.
 
 - __origin_organism__
   - Type: string
-  - Description: The specific species or source from which the enzyme is derived or isolated. It includes information about the genus and species of the organism. However, the cell type from which the biocatalyst is        derived could be bacterial, as well as plant, animal, or other sources. (__if_applicable__)
+  - Description: The specific species or source from which the enzyme is derived or isolated. It includes information about the genus and species of the organism. However, the cell type from which the biocatalyst is derived could be bacterial, as well as plant, animal, or other sources. Organism names are usually written in italic and consisted out of two words; however can be also shortern to the inital letter of the organismn and the second word for bacteria e.g. E. coli, B. subitlis, Acinetobacter johnsonii.  (__if_applicable__)
 
 - __supplier__
   - Type: string
-  - Description: Information about the supplier from which the enzyme was purchased. If possible, a reference for the purchased biocatalyst should also be provided.
+  - Description: Information about the supplier from which the enzyme was purchased. If possible, a reference for the purchased biocatalyst should also be provided. A good indicator is that the company name of the supplier is mentioned, e.g from [company name], purchased from [company name], or according to the manufacturer.
 
 - __production_organism__
   - Type: string
@@ -67,7 +67,7 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __posttranslational_modification__
   - Type: string
-  - Description: Information about any chemical modifications or alterations that occur to the biocatalyst's protein structure after translation, such as phosphorylation, glycosylation, acetylation,               methylation, ubiquitination and other modifications.
+  - Description: Information about any chemical modifications or alterations that occur to the biocatalyst's protein structure after translation, such as phosphorylation, glycosylation, acetylation, methylation, ubiquitination and other modifications.
 
 - __purity__
   - Type: float
@@ -79,7 +79,8 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __formulation__
   - Type: string
-  - Description: Depending on the formulation, the biocatalyst can exist either in a dissolved state within a solvent or as a solid powder. It defines the physical state in which the biocatalyst is used. Additional information regarding the application or formulation in the experiment should be entered in the next subcategory.
+  - Description: Depending on the formulation, the biocatalyst can exist either in a dissolved state within a solvent or as a solid powder. It defines the physical state in which the biocatalyst is used. An example for a solvent would be a buffer that can be composed out of different salts and is set to a pH, sometimes is also glycerol in the formulation e.g. 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8; 20 mM HEPES, 10 mM MgCl2, pH 7.2.  Additional information regarding the application or formulation in the experiment should be entered in the next subcategory.
+
 
 </details>
 
@@ -91,7 +92,7 @@ Important information to characterize the biocatalyst and to describe it clearly
 
 - __name__
   - Type: string
-  - Description: The name of the biocatalyst can be either generic based on the catalyzed reaction, for example, 'lipase' or more specifically by describing the genus and species, such as '_Bacillus amyloliquefaciens_ alpha-amylase'.
+  - Description: Description: The name of the biocatalyst can be either generic based on the catalyzed reaction, for example, 'lipase', named after substrate specificty such as 'lactase', or more specifically by describing the genus and species e.g. 'Bacillus subtilis protease', sometimes it also can be a number letter combination such as 'CHMO-M15', a abberviation, such as 'EaGK, KatG' or common names such as 'trypsin'.
 
 - __ec_number__
   - Type: string
@@ -108,7 +109,7 @@ Important information to characterize the biocatalyst and to describe it clearly
 
 - __catalyzed_reaction__
   - Type: string
-  - Description: The reaction catalyzed by the biocatalyst.
+  - Description: The chemical reaction catalyzed by the biocatalyst.
 
 - __sequence_amino_acid__
   - Type: string
@@ -116,27 +117,27 @@ Important information to characterize the biocatalyst and to describe it clearly
 
 - __sequence_DNA__
   - Type: string
-  - Description: The DNA sequence of the biocatalyst including any tags and linkers.
+  - Description: The DNA sequence of the biocatalyst including any tags and linkers. DNA sequence consisted out of Adenine (A), Thymine (T), Cytosine (C), and Guanine (G), e.g., ATGGAT.
 
 - __sequence_plasmid__
   - Type: string
-  - Description: The DNA sequence of the plasmid used to produce the biocatalyst. The sequence can be provided in plain text or as a database ID.
+  - Description: The DNA sequence of the plasmid used to produce the biocatalyst. The sequence can be provided in plain text or as a database ID. The name of a plasmid starts with a small p follwoed by letters and numbers.
 
 - __plasmid_specifications__
   - Type: string
-  - Description: All DNA sequence changes (e.g. codon optimization for _E. coli_, insertion of affinity tags, sequence truncation, etc.) should be provided.
+  - Description: All DNA sequence changes (e.g. codon optimization for _E. coli_, insertion of affinity tags e.g. His-Tag, sequence truncation, etc.) should be provided.
 
 - __origin_organism__
   - Type: string
-  - Description: The specific species or source from which the enzyme is derived or isolated. It includes information about the genus and species of the organism. (__if_applicable__)
+  - Description: The specific species or source from which the enzyme is derived or isolated. It includes information about the genus and species of the organism. However, the cell type from which the biocatalyst is derived could be bacterial, as well as plant, animal, or other sources. Organism names are usually written in italic and consisted out of two words; however can be also shortern to the inital letter of the organismn and the second word for bacteria e.g. E. coli, B. subitlis, Acinetobacter johnsonii. (__if_applicable__)
 
 - __production_organism__
   - Type: string
-  - Description: Information about the organism in which the biocatalyst was produced is crucial in the context of heterologous gene expression. If the production strain was purchased, more detailed information on the manufacturer and the organism should be provided.
+  - Description: Information about the organism in which the biocatalyst was produced is crucial in the context of heterologous gene expression. Organism names are usually written in italic and consisted out of two words; however can be also shortern to the inital letter of the organismn and the second word for bacteria e.g. Escherichia coli or E. coli or yest e.g. Komagataella phaffii or K. phaffii are commen production organisms.
 
 - __posttranslational_modification__
   - Type: string
-  - Description: Information about any chemical modifications or alterations that occur to the biocatalyst's protein structure after translation, such as phosphorylation, glycosylation, acetylation,               methylation, ubiquitination and other modifications.
+  - Description: Information about any chemical modifications or alterations that occur to the biocatalyst's protein structure after translation, such as phosphorylation, glycosylation, acetylation, methylation, ubiquitination and other modifications.
 
 - __purity__
   - Type: float
@@ -148,17 +149,17 @@ Important information to characterize the biocatalyst and to describe it clearly
 
 - __purification_method__
   - Type: string
-  - Description: The choice of purification methods is diverse and can impact the enzyme, with possible methods including chromatographic techniques, precipitation, HPLC, ultrafiltration, dialysis, salt fractionation,      etc.
+  - Description: The choice of purification methods is diverse and can impact the enzyme, with possible methods including chromatographic techniques, such as immobilized metal affinity chromatography (IMAC) or ion exchange chomatogrfie (IEX), precipitation, HPLC, ultrafiltration, dialysis, salt fractionation, etc..
 
 - __formulation__
   - Type: string
-  - Description: Depending on the formulation, the biocatalyst can exist either in a dissolved state within a solvent or as a solid powder. It defines the physical state in which the biocatalyst is used. Additional information regarding the application or formulation in the experiment should be entered in the next subcategory.
+  - Description: Depending on the formulation, the biocatalyst can exist either in a dissolved state within a solvent or as a solid powder. It defines the physical state in which the biocatalyst is used. An example for a solvent would be a buffer that can be composed out of different salts and is set to a pH, sometimes is also glycerol in the formulation e.g. 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8; 20 mM HEPES, 10 mM MgCl2, pH 7.2.  Additional information regarding the application or formulation in the experiment should be entered in the next subcategory.
 
 <hr>
 
 - __special_treatment__
   - Type: string
-  - Description: If there are any other specific methods, procedures, characteristics or aspects related to the biocatalyst that are important for reproducibility and are not described by the aforementioned metadata,       they should be explained here.
+  - Description: If there are any other specific methods, procedures, characteristics or aspects related to the biocatalyst that are important for reproducibility and are not described by the aforementioned metadata, they should be explained here.
 
 </details>
 
