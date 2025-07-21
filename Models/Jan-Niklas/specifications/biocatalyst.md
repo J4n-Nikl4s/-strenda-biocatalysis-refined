@@ -39,7 +39,7 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __molecular_weight_unit__
   - Type: string
-  - Description: The enzyme size or molar weight is typically expressed in kDa (kilodaltons).
+  - Description: The enzyme size or molar weight is typically expressed in kDa (kilodaltons) or Da (dalton).
 
 - __catalyzed_reaction__
   - Type: string
@@ -63,7 +63,7 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __production_organism__
   - Type: string
-  - Description: Information about the organism in which the biocatalyst was produced is crucial in the context of heterologous gene expression.
+  - Description: Information about the organism in which the biocatalyst was produced is crucial in the context of heterologous gene expression. Organism names are usually written in italic and consisted out of two words; however can be also shortern to the inital letter of the organismn and the second word for bacteria e.g. Escherichia coli or E. coli or yest e.g. Komagataella phaffii or K. phaffii are commen production organisms.
 
 - __posttranslational_modification__
   - Type: string
@@ -79,7 +79,7 @@ Important information to characterize the biocatalyst and determine its origin.
 
 - __formulation__
   - Type: string
-  - Description: Depending on the formulation, the biocatalyst can exist either in a dissolved state within a solvent or as a solid powder. It defines the physical state in which the biocatalyst is used. An example for a solvent would be a buffer that can be composed out of different salts and is set to a pH, sometimes is also glycerol in the formulation e.g. 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8; 20 mM HEPES, 10 mM MgCl2, pH 7.2.  Additional information regarding the application or formulation in the experiment should be entered in the next subcategory.
+  - Description: Describes the physical and chemical state in which the biocatalyst is provided or used. This includes whether the enzyme is in a dissolved state (e.g., in aqueous or organic solvents) or as a solid form (e.g., lyophilized powder, immobilized on a carrier). For dissolved formulations, specify the buffer composition, including all components with concentrations and pH (e.g., 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8.0). Organic solvents (e.g., DMSO, ethanol) may also be included if applicable. For solid formulations, indicate the physical form (e.g., lyophilized, spray-dried, immobilized).
 
 
 </details>
@@ -105,7 +105,7 @@ Important information to characterize the biocatalyst and to describe it clearly
 
 - __molecular_weight_unit__
   - Type: string
-  - Description: The enzyme size or molar weight is typically expressed in kDa (kilodaltons).
+  - Description: The enzyme size or molar weight is typically expressed in kDa (kilodaltons) or Da (Dalton).
 
 - __catalyzed_reaction__
   - Type: string
@@ -149,12 +149,11 @@ Important information to characterize the biocatalyst and to describe it clearly
 
 - __purification_method__
   - Type: string
-  - Description: The choice of purification methods is diverse and can impact the enzyme, with possible methods including chromatographic techniques, such as immobilized metal affinity chromatography (IMAC) or ion exchange chomatogrfie (IEX), precipitation, HPLC, ultrafiltration, dialysis, salt fractionation, etc..
+  - Description: The choice of purification methods is diverse and can impact the enzyme, with possible methods including chromatographic techniques, such as immobilized metal affinity chromatography (IMAC) or ion exchange chomatogrfie (IEX), precipitation, high performance liquid chromatography (HPLC), ultrafiltration, dialysis, salt fractionation, etc..
 
 - __formulation__
   - Type: string
-  - Description: Depending on the formulation, the biocatalyst can exist either in a dissolved state within a solvent or as a solid powder. It defines the physical state in which the biocatalyst is used. An example for a solvent would be a buffer that can be composed out of different salts and is set to a pH, sometimes is also glycerol in the formulation e.g. 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8; 20 mM HEPES, 10 mM MgCl2, pH 7.2.  Additional information regarding the application or formulation in the experiment should be entered in the next subcategory.
-
+  - Description: Describes the physical and chemical state in which the biocatalyst is provided or used. This includes whether the enzyme is in a dissolved state (e.g., in aqueous or organic solvents) or as a solid form (e.g., lyophilized powder, immobilized on a carrier). For dissolved formulations, specify the buffer composition, including all components with concentrations and pH (e.g., 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8.0). Organic solvents (e.g., DMSO, ethanol) may also be included if applicable. For solid formulations, indicate the physical form (e.g., lyophilized, spray-dried, immobilized).
 <hr>
 
 - __special_treatment__
@@ -192,7 +191,7 @@ The soluble enzyme refers to purified enzyme.
 
 - __activity__
   - Type: float
-  - Description: The activity of the biocatalyst can be expressed either as volumetric activity, which considers the total activity of the enzyme in the solution, or as specific activity, which takes into account the       enzyme's purity and indicates the activity of an enzyme per unit of enzyme protein or enzyme mass. If the biocatalyst has been purchased, it is advisable to look up more precise information (e.g. via an SOP)            regarding the activities specified by the manufacturer, as these may differ from the values determined by yourself (different activity assays can lead to different activity values). In addition, the loss of activity of the biocatalyst over the storage period should be taken into account.
+  - Description: The activity of the biocatalyst can be expressed either as volumetric activity, which considers the total activity of the enzyme in the solution, or as specific activity, which takes into account the enzyme's purity and indicates the activity of an enzyme per unit of enzyme protein or enzyme mass. If the biocatalyst has been purchased, it is advisable to look up more precise information (e.g. via an SOP) regarding the activities specified by the manufacturer, as these may differ from the values determined by yourself (different activity assays can lead to different activity values). In addition, the loss of activity of the biocatalyst over the storage period should be taken into account.
 
 - __activity_unit__
   - Type: string
@@ -204,7 +203,7 @@ The soluble enzyme refers to purified enzyme.
 
 - __formulation__
   - Type: string
-  - Description: Depending on the formulation, the biocatalyst can be applied dissolved in a solvent or as a dried powder. It defines the physical state in which the biocatalyst is applied in the reaction.
+  - Description: Describes the physical and chemical state in which the biocatalyst is provided or used. This includes whether the enzyme is in a dissolved state (e.g., in aqueous or organic solvents) or as a solid form (e.g., lyophilized powder, immobilized on a carrier). For dissolved formulations, specify the buffer composition, including all components with concentrations and pH (e.g., 50 mM Tris-HCl, 200 mM NaCl, 10% glycerol, pH 8.0). Organic solvents (e.g., DMSO, ethanol) may also be included if applicable. For solid formulations, indicate the physical form (e.g., lyophilized, spray-dried, immobilized).
 
 <hr>
 
